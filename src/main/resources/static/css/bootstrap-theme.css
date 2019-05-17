@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar-default { background:none;}
+.navbar { border:none;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{ background:none !important;}
+.nav > li > a:hover, .nav > li > a:focus { background:none;}
+.navbar-form { border:none !important; padding:10px 0px;}
+.container { width:100%; max-width:960px;}
+.form-control{ height:32px; box-shadow:none !important; }
+.form-control:hover, .form-control:focus { box-shadow: 0 0 5px #FFF !important; border-color:#0571de !important;}
+.login-box .form-inline .form-group { vertical-align:top;}
+.thumbnail{ padding:0; border-radius:2px; border:none; margin-bottom:0;}
+.thumbnail .caption { padding:15px 15px 10px 15px; color: #333;}
+.btn { color:#fff !important;}
+.btn:hover { color:#fff !important;}
+.carousel-indicators  { bottom:0px !important; }
+.carousel-indicators .active { width:10px; height:10px; margin:1px 2px 1px 1px;}
+
+.nav-tabs { border-bottom:none;}
+.nav-tabs>li { margin-right:10px;}
+.nav-tabs>li>a { border:none; margin:0; color:#ccc; padding:0px; }
+.nav-tabs>li:hover a { box-shadow:none; border:none; margin:0;}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {color: #049fd9; margin:0; border:none; background:none; box-shadow:none; border-bottom: solid 3px #049fd9;}
+
+.breadcrumb { background:none; padding:8px 15px 5px 0px; margin-bottom:0;}
+.breadcrumb>li { font-size:12px; font-style:normal; display: initial;}
+.breadcrumb>.active { color:#999999;}
+.breadcrumb>li> a, .breadcrumb>li> a:hover, .breadcrumb>li> a:focus  { color:#3399cc; }
+
+.btn-primary.disabled, .btn-primary.disabled.active, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled], .btn-primary[disabled].active, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary.active, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover { background-color: #97C8F1; border-color: #97C8F1;}
+.table-responsive { margin-bottom:0px;} 
+
+/*** Alert & Infor Panels Formatting */
+.alert{ border-radius: 2px; box-sizing: border-box; font-size: 13px; line-height: 18px;  margin-bottom: 10px; padding: 8px 10px 5px 30px;}
+.alert i { float: left; margin: -2px 0 0 -25px;  width:21px; height: 24px;}
+.alert-danger{  background: #feeeee none repeat scroll 0 0; border: 1px solid red;color: red;}
+.alert-success { background-color: #f3feee;border-color: #05aa0d;color: #05aa0d;}
+.alert-info{  color: #666; background-color: #fff9d7; border-color: #e4cb2f;}
+.alert-warning{background-color: #fdf0d8;border-color: #b57503;color: #b57503;}
+.success-icon,.alert-icon,.warning-icon,.error-icon { background: rgba(0, 0, 0, 0) url("../images/icon-alert.png") no-repeat scroll left -55px;}
+.error-icon {background-position: left 1px;}
+.alert-icon { background-position: left -82px;}
+.warning-icon{background-position: left -26px;}
+

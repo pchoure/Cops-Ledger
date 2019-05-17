@@ -1,0 +1,12 @@
+<div ng-controller="gridController" ng-init="init()" style=" margin-top: -15px !important; ">
+<div class="spinner" ng-show="loadingIcon"></div>
+<div>
+    <h3>{{headingTitle}}</h3>
+    <div ui-grid="gridOptions"  ui-grid-pinning 
+                                    ui-grid-auto-resize ui-grid-selection ui-grid-pagination
+                                    ui-grid-edit
+                             class="text-center gridNegotiation" style="height: 465px !important;">
+                            <div class="watermark" ng-show="gridOptions.data.length==0">No data available </div>
+                        </div>
+    </div>
+</div>
