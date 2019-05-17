@@ -9,7 +9,7 @@
 		<version>1.5.9.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.cisco</groupId>
+	<groupId>com.blockchain</groupId>
 	<artifactId>pcba</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
@@ -83,7 +83,8 @@
 
 		<!-- https://mvnrepository.com/artifact/com.oracle/ojdbc6 -->
 		<!-- https://mvnrepository.com/artifact/oracle/ojdbc6 -->
-		<dependency>
+		
+	<!-- 	<dependency>
 			<groupId>bcprov-jdk15on-159</groupId>
 			<artifactId>bcprov-jdk15on-159</artifactId>
 			<scope>system</scope>
@@ -97,7 +98,7 @@
 			<scope>system</scope>
 			<version>2.6.2</version>
 			<systemPath>${basedir}\src\lib\gson-2.6.2.jar</systemPath>
-		</dependency>
+		</dependency> -->
 		
 		<!-- <dependency>
 			<groupId>ojdbc6-1.0</groupId>
