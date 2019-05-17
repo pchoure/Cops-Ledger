@@ -1219,7 +1219,7 @@ __webpack_require__.r(__webpack_exports__);
 // The list of file replacements can be found in `angular.json`.
 var environment = {
     production: false,
-    baseUrl: '/'
+    baseUrl: 'https://cops-ledger.herokuapp.com/'
     //baseUrl:'http://localhost:8080/spring-boot-legacy1' 
 };
 /*
