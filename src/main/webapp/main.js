@@ -957,7 +957,6 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 //];
 var TableComponent = /** @class */ (function () {
     function TableComponent(http, _dataService, route) {
-        var _this = this;
         this.http = http;
         this._dataService = _dataService;
         this.route = route;
@@ -966,8 +965,6 @@ var TableComponent = /** @class */ (function () {
         this.fromdate = this._dataService.getFromDate();
         this.category = this._dataService.getCategory();
         this.getitemrecords().then(function (Response) {
-            _this.dataSource = new _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatTableDataSource"](Response);
-            _this.dataSource.sort = _this.sort;
             // this.dataSource=Response;
         });
     }

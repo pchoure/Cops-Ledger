@@ -62,7 +62,14 @@ public static int difficulty = 0;
 	    		   db=t.getValue();
 	    		  System.out.println(db.toString()+" ");
 	    		  
-	    		  newList.add(db);
+	    		 if(db.getReportedDate().equals(fromDate) && db.getCategory().equals(category))
+	    		 {
+	    			  newList.add(db);
+	    			 
+	    		 }
+	    		  
+	    		  
+	    		
 	    		  
 	    	  }
 	    	           
