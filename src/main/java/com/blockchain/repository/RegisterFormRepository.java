@@ -98,7 +98,7 @@ public static int difficulty = 0;
 		{
 			//create genesis transaction, which sends 100 NoobCoin to walletA: 
 			
-			if(d.getEntryBy().equals("abc"))
+			if(d.getEntryBy().equals("pchoure"))
 			{
 				genesisTransaction = new Transaction(walletA.publicKey,d);
 				genesisTransaction.generateSignature(coinbase.privateKey);	 //manually sign the genesis transaction	
