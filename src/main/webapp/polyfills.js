@@ -5772,7 +5772,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\pchoure\block1\src\polyfills.ts */"./src/polyfills.ts");
+module.exports = __webpack_require__(/*! C:\Users\pchoure\Documents\cops-ledger\block1\src\polyfills.ts */"./src/polyfills.ts");
 
 
 /***/ })

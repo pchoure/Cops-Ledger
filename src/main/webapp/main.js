@@ -332,7 +332,7 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 
-var routes = [{ path: 'table', component: _components_table_table_component__WEBPACK_IMPORTED_MODULE_2__["TableComponent"] }];
+var routes = [{ path: 'table/:flag', component: _components_table_table_component__WEBPACK_IMPORTED_MODULE_2__["TableComponent"] }];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
     }
@@ -1065,6 +1065,7 @@ var ViewRecordsComponent = /** @class */ (function () {
     function ViewRecordsComponent(router, _dataService) {
         this.router = router;
         this._dataService = _dataService;
+        this.count = 0;
         this.datePipe = new _node_modules_angular_common__WEBPACK_IMPORTED_MODULE_1__["DatePipe"]('en-US');
     }
     ViewRecordsComponent.prototype.ngOnInit = function () {
@@ -1081,7 +1082,15 @@ var ViewRecordsComponent = /** @class */ (function () {
     ViewRecordsComponent.prototype.submit = function () {
         this._dataService.setFromDate(this.fromDate);
         this._dataService.setCategory(this.selectedValue);
-        this.router.navigate(['table']);
+        this.count = this.count + 1;
+        if (this.count % 2 == 0) {
+            this.flag = 1;
+        }
+        else {
+            this.flag = 2;
+        }
+        this.router.navigate(['table', this.flag]);
+        // this.router.navigate(['table']);
     };
     ViewRecordsComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -1266,7 +1275,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\pchoure\block1\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Users\pchoure\Documents\cops-ledger\block1\src\main.ts */"./src/main.ts");
 
 
 /***/ })
